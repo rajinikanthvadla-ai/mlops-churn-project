@@ -112,7 +112,6 @@ export UNIQUE_ID="[YOUR-UNIQUE-ID]"
 export AWS_REGION="ap-south-1" # Or your preferred AWS region
 
 # Create the S3 buckets
-aws s3 mb s3://mlops-churn-raw-data-$UNIQUE_ID --region $AWS_REGION
 aws s3 mb s3://mlops-churn-processed-data-$UNIQUE_ID --region $AWS_REGION
 aws s3 mb s3://mlops-churn-model-artifacts-$UNIQUE_ID --region $AWS_REGION
 
